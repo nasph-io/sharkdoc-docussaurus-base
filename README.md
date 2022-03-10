@@ -116,7 +116,7 @@ themeConfig:
 
 Here are the properties that you have to tweak in order to adapt the information according your needs:
 
-```json
+```js
 
       footer: {
         style: 'dark',
@@ -185,5 +185,5 @@ We have to main themes:
 
 In order to customize it, there is a nice utility provided by Docussaurus here: https://docusaurus.io/docs/styling-layout . It helps you to define the new colors: 
 
-![enter image description here](https://d33wubrfki0l68.cloudfront.net/ea8e37a6a30e9c260a8936d95c579af4a2dd3df7/6ee7e/img/docusaurus_keytar.svg)
+![Customizing theme](https://github.com/nasph-io/sharkdoc-docussaurus-base/raw/main/static/img/assets/pallete.jpg)
 
