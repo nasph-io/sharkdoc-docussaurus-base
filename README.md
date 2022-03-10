@@ -52,7 +52,7 @@ For changing the initial things in this portal, you have to take a look in this 
 
 Here you have some key configurations to do that will impact the site initially : 
 
-```json 
+```
 const config = {
   title: 'My Site', //this is the devportal title (showing on browser title on the top )
   tagline: 'Dinosaurs are cool', 
