@@ -52,7 +52,7 @@ For changing the initial things in this portal, you have to take a look in this 
 
 Here you have some key configurations to do that will impact the site initially : 
 
-```
+```js
 const config = {
   title: 'My Site', //this is the devportal title (showing on browser title on the top )
   tagline: 'Dinosaurs are cool', 
@@ -68,7 +68,7 @@ const config = {
 
 On the same file, we have another section that is reponsible for visual assets :
 
-```json
+```js
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
@@ -87,7 +87,7 @@ On the same file, we have another section that is reponsible for visual assets :
 
 Here are the main points : 
 
-```json
+```js
 
 themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
