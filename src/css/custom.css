@@ -4,6 +4,9 @@
  * work well for content-centric websites.
  */
 
+ /* Adding new fonts */
+ @import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600&family=Cairo:wght@200&family=Fredoka:wght@300;400;500;600;700&family=JetBrains+Mono:ital,wght@0,100;0,200;1,100&family=Open+Sans:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Poppins:ital,wght@0,100;0,200;1,100&display=swap');
+
 /* You can override the default Infima variables here. */
 :root {
   --ifm-color-primary: #a32492;
@@ -44,4 +47,45 @@ display: block;
 
 [data-theme='dark'] .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.3);
+}
+
+body {
+  font-family: 'JetBrains Mono', sans-serif;
+  font-size: 12px;
+}
+
+
+h1 {
+  font-family: 'JetBrains Mono', sans-serif;
+  font-size: 16px;
+}
+
+
+h2 {
+  font-family: 'JetBrains Mono', sans-serif;
+  font-size: 14px;
+}
+
+h3 {
+  font-family: 'JetBrains Mono', sans-serif;
+  font-size: 11px;
+}
+
+redocusaurus {
+  font-family: 'JetBrains Mono', sans-serif;
+
+}
+
+ /* top navbar fonts */
+.navbar--fixed-top {
+
+  font-family: 'JetBrains Mono', sans-serif;
+  font-size: 12px;
+}
+ /* side menu */
+.menu{
+
+  font-family: 'JetBrains Mono', sans-serif;
+  font-size: 12px;
+
 }

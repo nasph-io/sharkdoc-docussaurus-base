@@ -5,7 +5,7 @@ Modify the docusaurus.config.js file at your site's root instead.
 */
 export default {
   "title": "SharkDoc",
-  "tagline": "Dinosaurs are cool",
+  "tagline": "Create astonishing api & docs devportal",
   "url": "https://your-docusaurus-test-site.com",
   "baseUrl": "/",
   "onBrokenLinks": "throw",
@@ -18,12 +18,10 @@ export default {
       "classic",
       {
         "docs": {
-          "sidebarPath": "/Users/edgar/OneDrive/skalena/2022/nasph-new/sharkdoc-docussaurus-base/sidebars.js",
-          "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
+          "sidebarPath": "/Users/edgar/OneDrive/skalena/2022/nasph-new/sharkdoc-docussaurus-base/sidebars.js"
         },
         "blog": {
-          "showReadingTime": true,
-          "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
+          "showReadingTime": true
         },
         "theme": {
           "customCss": "/Users/edgar/OneDrive/skalena/2022/nasph-new/sharkdoc-docussaurus-base/src/css/custom.css"
@@ -32,6 +30,8 @@ export default {
     ]
   ],
   "themeConfig": {
+    "docsSideNavCollapsible": true,
+    "editUrl": "",
     "navbar": {
       "title": "SharkDoc",
       "logo": {
