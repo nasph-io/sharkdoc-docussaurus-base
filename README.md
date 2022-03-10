@@ -65,8 +65,6 @@ const config = {
   projectName: 'docusaurus', // Usually your repo name.
 ```
 
-![Customizing theme](https://github.com/nasph-io/sharkdoc-docussaurus-base/raw/main/static/img/assets/toptitle.jpg)
-
 
 ### Starting customize visual assets
 
@@ -86,8 +84,9 @@ On the same file, we have another section that is reponsible for visual assets :
   
   ...
 ```
+![Customizing theme](https://github.com/nasph-io/sharkdoc-docussaurus-base/raw/main/static/img/assets/toptitle.jpg)
 
-## Customizing the Menus
+## Customizing the Navbars
 
 Here are the main points : 
 
@@ -115,6 +114,8 @@ themeConfig:
 ...      
 
 ```
+
+![Customizing theme](https://github.com/nasph-io/sharkdoc-docussaurus-base/raw/main/static/img/assets/top-site-left.jpg)
 
 ### Customizing the Footer 
 
