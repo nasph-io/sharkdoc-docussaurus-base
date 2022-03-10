@@ -181,6 +181,8 @@ display: block;
 }
 ```
 
+![Customizing theme](https://github.com/nasph-io/sharkdoc-docussaurus-base/raw/main/static/img/assets/footer.jpg)
+
 ### Customizing Main Themes colors
 
 We have to main themes: 
