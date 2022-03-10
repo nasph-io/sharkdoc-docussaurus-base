@@ -64,6 +64,10 @@ const config = {
   organizationName: 'facebook', // Usually your GitHub org/user name.
   projectName: 'docusaurus', // Usually your repo name.
 ```
+
+![Customizing theme](https://github.com/nasph-io/sharkdoc-docussaurus-base/raw/main/static/img/assets/toptitle.jpg)
+
+
 ### Starting customize visual assets
 
 On the same file, we have another section that is reponsible for visual assets :
