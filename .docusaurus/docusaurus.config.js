@@ -11,9 +11,22 @@ export default {
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
   "favicon": "img/favicon.ico",
-  "organizationName": "facebook",
-  "projectName": "docusaurus",
+  "organizationName": "nasph-io/edgars",
+  "projectName": "sharkdoc-docussaurus-base",
   "presets": [
+    [
+      "redocusaurus",
+      {
+        "specs": [
+          {
+            "specUrl": "https://redocly.github.io/redoc/openapi.yaml",
+            "id": "swagger_petstore",
+            "routePath": "/sample/doc",
+            "addRoute": true
+          }
+        ]
+      }
+    ],
     [
       "classic",
       {

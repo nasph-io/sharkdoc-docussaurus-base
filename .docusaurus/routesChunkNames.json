@@ -129,6 +129,11 @@
     "component": "component---theme-mdx-page-1-f-3-b90",
     "content": "content---markdown-page-393-028"
   },
+  "/sample/doc-2de": {
+    "component": "component---theme-api-docf-0-a-77e",
+    "spec": "spec---sample-doc-57-f-458",
+    "layoutProps": "layoutProps---sample-doca-95-62a"
+  },
   "/docs-87d": {
     "component": "component---theme-doc-page-1-be-9be",
     "versionMetadata": "versionMetadata---docs-935-398"

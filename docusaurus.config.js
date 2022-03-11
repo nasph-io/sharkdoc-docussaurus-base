@@ -13,14 +13,31 @@ const config = {
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'nasph-io/edgars', // Usually your GitHub org/user name.
+  projectName: 'sharkdoc-docussaurus-base', // Usually your repo name.
 
   presets: [
+
+    [
+      'redocusaurus',
+      {
+        specs: [
+          {
+            specUrl: 'https://redocly.github.io/redoc/openapi.yaml',
+            id: 'swagger_petstore',
+            routePath: '/sample/doc',
+            addRoute: true
+          },                  
+        ],
+      },
+    ],
+
     [
       'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
+
+        
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.

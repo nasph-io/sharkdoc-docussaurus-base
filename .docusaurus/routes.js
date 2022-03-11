@@ -99,6 +99,11 @@ export default [
     exact: true
   },
   {
+    path: '/sample/doc',
+    component: ComponentCreator('/sample/doc','2de'),
+    exact: true
+  },
+  {
     path: '/docs',
     component: ComponentCreator('/docs','87d'),
     routes: [

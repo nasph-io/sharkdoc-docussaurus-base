@@ -2,6 +2,11 @@
   "docusaurusVersion": "2.0.0-beta.17",
   "siteVersion": "0.0.0",
   "pluginVersions": {
+    "docusaurus-plugin-redoc": {
+      "type": "package",
+      "name": "docusaurus-plugin-redoc",
+      "version": "0.9.0"
+    },
     "docusaurus-plugin-content-docs": {
       "type": "package",
       "name": "@docusaurus/plugin-content-docs",
@@ -21,6 +26,11 @@
       "type": "package",
       "name": "@docusaurus/plugin-debug",
       "version": "2.0.0-beta.17"
+    },
+    "docusaurus-theme-redoc": {
+      "type": "package",
+      "name": "docusaurus-theme-redoc",
+      "version": "0.9.0"
     },
     "docusaurus-theme-classic": {
       "type": "package",

@@ -1,4 +1,7 @@
 {
+  "docusaurus-plugin-redoc": {
+    "swagger_petstore": null
+  },
   "docusaurus-plugin-content-docs": {
     "default": {
       "loadedVersions": [
@@ -665,6 +668,9 @@
     ]
   },
   "docusaurus-plugin-debug": {
+    "default": null
+  },
+  "docusaurus-theme-redoc": {
     "default": null
   },
   "docusaurus-theme-classic": {
