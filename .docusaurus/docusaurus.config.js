@@ -24,7 +24,16 @@ export default {
             "routePath": "/sample/doc",
             "addRoute": true
           }
-        ]
+        ],
+        "theme": {
+          "primaryColor": "#a32492",
+          "fontFamily": "Ubuntu Mono, monospace",
+          "fontSize": "11px",
+          "redocOptions": {
+            "hideDownloadButton": false,
+            "disableSearch": false
+          }
+        }
       }
     ],
     [

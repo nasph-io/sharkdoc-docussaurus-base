@@ -29,8 +29,22 @@ const config = {
             addRoute: true
           },                  
         ],
+        theme: {
+          /**
+           * Highlight color for docs
+           */
+          primaryColor: '#a32492',
+          fontFamily: 'Ubuntu Mono, monospace',
+          fontSize: '11px',
+          /**
+           * Options to pass to redoc
+           * @see https://github.com/redocly/redoc#redoc-options-object
+           */
+          redocOptions: { hideDownloadButton: false, disableSearch: false },
+        },
       },
     ],
+ 
 
     [
       'classic',

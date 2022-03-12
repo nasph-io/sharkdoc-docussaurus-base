@@ -35,7 +35,7 @@
         },
         "colors": {
           "primary": {
-            "main": "#25c2a0"
+            "main": "#a32492"
           }
         }
       },
@@ -79,7 +79,7 @@
             "light": "rgba(0,0,0, 0.1)"
           },
           "primary": {
-            "main": "#25c2a0"
+            "main": "#a32492"
           }
         },
         "schema": {
@@ -90,10 +90,11 @@
       },
       "redocOptions": {
         "scrollYOffset": "nav.navbar",
-        "hideDownloadButton": true,
+        "hideDownloadButton": false,
         "expandSingleSchemaField": true,
         "menuToggle": true,
-        "suppressWarnings": true
+        "suppressWarnings": true,
+        "disableSearch": false
       }
     }
   },

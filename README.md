@@ -64,7 +64,7 @@ const config = {
   organizationName: 'facebook', // Usually your GitHub org/user name.
   projectName: 'docusaurus', // Usually your repo name.
 ```
-
+![Customizing theme](https://github.com/nasph-io/sharkdoc-docussaurus-base/raw/main/static/img/assets/toptitle.jpg)
 
 ### Starting customize visual assets
 
@@ -84,7 +84,7 @@ On the same file, we have another section that is reponsible for visual assets :
   
   ...
 ```
-![Customizing theme](https://github.com/nasph-io/sharkdoc-docussaurus-base/raw/main/static/img/assets/toptitle.jpg)
+
 
 ## Customizing the Navbars
 
@@ -194,3 +194,27 @@ In order to customize it, there is a nice utility provided by Docussaurus here: 
 
 ![Customizing theme](https://github.com/nasph-io/sharkdoc-docussaurus-base/raw/main/static/img/assets/pallete.jpg)
 
+
+## Changing the Redoc UI Color
+
+Check the docussaurus.config.js the following portion:
+
+```js
+
+theme: {
+          /**
+           * Highlight color for docs
+           */
+          primaryColor: '#a32492',
+          fontFamily: 'Ubuntu Mono, monospace',
+          fontSize: '11px',
+          /**
+           * Options to pass to redoc
+           * @see https://github.com/redocly/redoc#redoc-options-object
+           */
+          redocOptions: { hideDownloadButton: false, disableSearch: false },
+        },
+      },
+    ],
+
+```
