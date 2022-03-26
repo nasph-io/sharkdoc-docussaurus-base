@@ -266,7 +266,7 @@ If it is the first time that you are executing the SharDoc CLI, it will complain
 { 
  
   "govcenter_base_uri": "https://govcenter.cloud.skalena.com.br", (govcenter uri)
-  "api_key": "API KEY",
+  "api_key": "API KEY", (the api key provided by the Govcenter, that will let the cli to interact with the matedata's API) 
   "doc_path": "/docs/apis", (default location for the api's markdown files)
   "docproject": "./"
 }
