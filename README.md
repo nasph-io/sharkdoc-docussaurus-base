@@ -218,3 +218,50 @@ theme: {
     ],
 
 ```
+
+## Developers Creating the Docs by themselves
+
+The Developer might be interested in to create the API's Documentation just using the Markdown files, in order to do this, just add the Markdown file with the proper content, add the Swagger references and so on. 
+
+If the documentation is made by a Documetation or business's team you can just use the Shardoc CLI, as documented bellow.
+
+## Sharkdoc CLI
+
+Sharkdoc CLI is a console application that aims to help api developers to create their api's docs reading the metada information from Nasph Govcenter, which is an application built on top of well known Strapi framework.
+
+### Installing Sharkdoc 
+
+In order to install SharkDoc, please, make sure you have the following pre-requirements: 
+
+* Node at least version 16 or above, we strongly recommend you to use the NVM utility from the Node ecosystem .
+* Yarn - v1.22 or above
+* npm - at least 8 or above
+
+Please, in order to install the Sharkdoc CLI, execute the following command: 
+
+
+In order to install SharkDoc, please, make sure you have the following pre-requirements: 
+
+```terminal
+npm install -g sharkdoc
+```
+
+_Make sure that if you your user don't have enough permission in Linux or Mac, please, use the sudo before the npm_
+
+Into your SharkDoc's project, this one that you did you just did the git clone, please execute the following command in the terminal:
+
+```terminal
+sharkdoc
+```
+
+It will execute the SharkDoc:
+
+![image](https://user-images.githubusercontent.com/25833/160222302-0882fde2-20e7-415e-b912-392c26b7477d.png)
+
+Select the option : Create a local api's doc page and press enter. 
+
+It will help you to create your markdown file, you just have to inform the api key (attribute) from the Governace Center, which will be use to search the API that is respectively represented by this api key, once the information is found via the api key, when you do inform the markdown page name, everything will be created for you.
+
+Enjoy!
+
+
