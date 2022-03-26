@@ -260,6 +260,20 @@ It will execute the SharkDoc:
 
 Select the option : Create a local api's doc page and press enter. 
 
+If it is the first time that you are executing the SharDoc CLI, it will complain that you have not created a sharkdoc.json which is responsible to give the properties information in order to let the CLI to interact with Govcenter. Please, once it is created for you, make sure you have filled the properties approprietelly, in the follow snippet, you can see an example of this file:
+
+```json
+{ 
+ 
+  "govcenter_base_uri": "https://govcenter.cloud.skalena.com.br", (govcenter uri)
+  "api_key": "API KEY",
+  "doc_path": "/docs/apis", (default location for the api's markdown files)
+  "docproject": "./"
+}
+
+
+ ```
+
 It will help you to create your markdown file, you just have to inform the api key (attribute) from the Governace Center, which will be use to search the API that is respectively represented by this api key, once the information is found via the api key, when you do inform the markdown page name, everything will be created for you.
 
 Enjoy!
