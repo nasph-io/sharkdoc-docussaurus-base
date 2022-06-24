@@ -68,7 +68,7 @@ Em caso de indeferimento, você receberá a justificativa no próprio ofício.
 
 O contrato desta API segue abaixo, assim como histórico de versão:
 
- - [Versão 1.0.0](swagger/agritec-api/)
+ - [Versão 1.0.0](/swagger-render?swagger=/swaggers/militar.json)
 
 :::
 
