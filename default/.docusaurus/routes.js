@@ -100,7 +100,7 @@ export default [
   },
   {
     path: '/sample/doc',
-    component: ComponentCreator('/sample/doc','2de'),
+    component: ComponentCreator('/sample/doc','065'),
     exact: true
   },
   {

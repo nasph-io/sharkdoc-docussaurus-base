@@ -40,13 +40,13 @@ export default {
       "classic",
       {
         "docs": {
-          "sidebarPath": "/Users/edgar/OneDrive/skalena/2022/nasph-new/sharkdoc-docussaurus-base/sidebars.js"
+          "sidebarPath": "/Users/edgar/OneDrive/skalena/2022/ufopa/sharkdoc/sharkdoc-site-templates/default/sidebars.js"
         },
         "blog": {
           "showReadingTime": true
         },
         "theme": {
-          "customCss": "/Users/edgar/OneDrive/skalena/2022/nasph-new/sharkdoc-docussaurus-base/src/css/custom.css"
+          "customCss": "/Users/edgar/OneDrive/skalena/2022/ufopa/sharkdoc/sharkdoc-site-templates/default/src/css/custom.css"
         }
       }
     ]

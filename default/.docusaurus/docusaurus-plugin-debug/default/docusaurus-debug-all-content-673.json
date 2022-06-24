@@ -15,9 +15,9 @@
           "versionClassName": "docs-version-current",
           "isLast": true,
           "routePriority": -1,
-          "sidebarFilePath": "/Users/edgar/OneDrive/skalena/2022/nasph-new/sharkdoc-docussaurus-base/sidebars.js",
-          "contentPath": "/Users/edgar/OneDrive/skalena/2022/nasph-new/sharkdoc-docussaurus-base/docs",
-          "contentPathLocalized": "/Users/edgar/OneDrive/skalena/2022/nasph-new/sharkdoc-docussaurus-base/i18n/en/docusaurus-plugin-content-docs/current",
+          "sidebarFilePath": "/Users/edgar/OneDrive/skalena/2022/ufopa/sharkdoc/sharkdoc-site-templates/default/sidebars.js",
+          "contentPath": "/Users/edgar/OneDrive/skalena/2022/ufopa/sharkdoc/sharkdoc-site-templates/default/docs",
+          "contentPathLocalized": "/Users/edgar/OneDrive/skalena/2022/ufopa/sharkdoc/sharkdoc-site-templates/default/i18n/en/docusaurus-plugin-content-docs/current",
           "docs": [
             {
               "unversionedId": "intro",
