@@ -1,0 +1,7 @@
+
+{ 
+  "govcenter_base_uri": "https://govcenter.cloud.skalena.com.br",
+  "api_key": "1116de7cadb077c6bd40163277c8c03b3ef49fe9b8511337dd5601ccaf9367738cd9f6afed2fb9f7786f152ef313213489c1056b67928651d387528324a8b4bcc83125a458778aaf0b62e75426cb58cab50a68321ad5adfaf005c143c220daf63243e77f1dbab19f5804b699145f3dcf5c86417754a3ebc92b348c0bfb31f4bb",
+  "doc_path": "./docs/apis/",
+  "docproject": "./"
+}

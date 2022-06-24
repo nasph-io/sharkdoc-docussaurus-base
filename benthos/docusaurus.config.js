@@ -2,7 +2,7 @@ const path = require('path');
 const {components} = require('./src/plugins/components');
 
 module.exports = {
-  title: 'Benthos',
+  title: 'Benthos - Shardoc Version',
   tagline: 'Fancy stream processing made operationally mundane',
   url: 'https://www.benthos.dev',
   baseUrl: '/',
