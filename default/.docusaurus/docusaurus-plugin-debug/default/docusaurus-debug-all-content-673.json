@@ -15,10 +15,28 @@
           "versionClassName": "docs-version-current",
           "isLast": true,
           "routePriority": -1,
-          "sidebarFilePath": "/Users/edgar/OneDrive/skalena/2022/ufopa/sharkdoc/sharkdoc-site-templates/default/sidebars.js",
-          "contentPath": "/Users/edgar/OneDrive/skalena/2022/ufopa/sharkdoc/sharkdoc-site-templates/default/docs",
-          "contentPathLocalized": "/Users/edgar/OneDrive/skalena/2022/ufopa/sharkdoc/sharkdoc-site-templates/default/i18n/en/docusaurus-plugin-content-docs/current",
+          "sidebarFilePath": "/home/junior/Documentos/github/junioremerson/sharkdoc-site-templates/default/sidebars.js",
+          "contentPath": "/home/junior/Documentos/github/junioremerson/sharkdoc-site-templates/default/docs",
+          "contentPathLocalized": "/home/junior/Documentos/github/junioremerson/sharkdoc-site-templates/default/i18n/en/docusaurus-plugin-content-docs/current",
           "docs": [
+            {
+              "unversionedId": "apis/lorem_ipsum",
+              "id": "apis/lorem_ipsum",
+              "title": "API Lorem Ipsum",
+              "description": "Informações Gerais",
+              "source": "@site/docs/apis/lorem_ipsum.md",
+              "sourceDirName": "apis",
+              "slug": "/apis/lorem_ipsum",
+              "permalink": "/docs/apis/lorem_ipsum",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "next": {
+                "title": "Tutorial Intro",
+                "permalink": "/docs/intro"
+              }
+            },
             {
               "unversionedId": "intro",
               "id": "intro",
@@ -30,11 +48,15 @@
               "permalink": "/docs/intro",
               "tags": [],
               "version": "current",
-              "sidebarPosition": 1,
+              "sidebarPosition": 2,
               "frontMatter": {
-                "sidebar_position": 1
+                "sidebar_position": 2
               },
               "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "API Lorem Ipsum",
+                "permalink": "/docs/apis/lorem_ipsum"
+              },
               "next": {
                 "title": "Create a Page",
                 "permalink": "/docs/tutorial-basics/create-a-page"
@@ -240,6 +262,18 @@
           "sidebars": {
             "tutorialSidebar": [
               {
+                "type": "category",
+                "label": "Available APIs",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "apis/lorem_ipsum"
+                  }
+                ]
+              },
+              {
                 "type": "doc",
                 "id": "intro"
               },
@@ -293,7 +327,7 @@
               }
             ]
           },
-          "mainDocId": "intro",
+          "mainDocId": "apis/lorem_ipsum",
           "categoryGeneratedIndices": []
         }
       ]
@@ -656,14 +690,9 @@
         "source": "@site/src/pages/index.js"
       },
       {
-        "type": "mdx",
-        "permalink": "/markdown-page",
-        "source": "@site/src/pages/markdown-page.md",
-        "title": "Markdown page example",
-        "description": "You don't need React to write simple standalone pages.",
-        "frontMatter": {
-          "title": "Markdown page example"
-        }
+        "type": "jsx",
+        "permalink": "/swagger-render",
+        "source": "@site/src/pages/swagger-render.js"
       }
     ]
   },

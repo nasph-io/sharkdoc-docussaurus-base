@@ -125,18 +125,22 @@
     "sidebar": "sidebar---blog-814-8ac",
     "content": "content---blog-welcomed-9-f-ffb"
   },
-  "/markdown-page-be1": {
-    "component": "component---theme-mdx-page-1-f-3-b90",
-    "content": "content---markdown-page-393-028"
-  },
-  "/sample/doc-065": {
+  "/sample/doc-778": {
     "component": "component---theme-api-docf-0-a-77e",
-    "spec": "spec---sample-doc-0-f-6-57a",
-    "layoutProps": "layoutProps---sample-doc-1-d-4-9e2"
+    "spec": "spec---sample-docf-8-e-643",
+    "layoutProps": "layoutProps---sample-docee-1-23e"
   },
-  "/docs-87d": {
+  "/swagger-render-ee0": {
+    "component": "component---site-src-pages-swagger-render-js-938-237",
+    "config": "config---swagger-render-5-e-9-792"
+  },
+  "/docs-0eb": {
     "component": "component---theme-doc-page-1-be-9be",
     "versionMetadata": "versionMetadata---docs-935-398"
+  },
+  "/docs/apis/lorem_ipsum-8bc": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-apis-lorem-ipsum-383-3ea"
   },
   "/docs/intro-aed": {
     "component": "component---theme-doc-item-178-a40",
@@ -176,6 +180,6 @@
   },
   "/-deb": {
     "component": "component---site-src-pages-index-jsc-4-f-f99",
-    "config": "config---5-e-9-4f3"
+    "config": "config---swagger-render-5-e-9-792"
   }
 }

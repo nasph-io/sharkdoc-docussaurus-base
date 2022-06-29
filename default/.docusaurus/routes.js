@@ -94,19 +94,25 @@ export default [
     exact: true
   },
   {
-    path: '/markdown-page',
-    component: ComponentCreator('/markdown-page','be1'),
+    path: '/sample/doc',
+    component: ComponentCreator('/sample/doc','778'),
     exact: true
   },
   {
-    path: '/sample/doc',
-    component: ComponentCreator('/sample/doc','065'),
+    path: '/swagger-render',
+    component: ComponentCreator('/swagger-render','ee0'),
     exact: true
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs','87d'),
+    component: ComponentCreator('/docs','0eb'),
     routes: [
+      {
+        path: '/docs/apis/lorem_ipsum',
+        component: ComponentCreator('/docs/apis/lorem_ipsum','8bc'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
       {
         path: '/docs/intro',
         component: ComponentCreator('/docs/intro','aed'),

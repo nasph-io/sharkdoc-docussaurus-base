@@ -107,8 +107,13 @@
           "label": "Next",
           "isLast": true,
           "path": "/docs",
-          "mainDocId": "intro",
+          "mainDocId": "apis/lorem_ipsum",
           "docs": [
+            {
+              "id": "apis/lorem_ipsum",
+              "path": "/docs/apis/lorem_ipsum",
+              "sidebar": "tutorialSidebar"
+            },
             {
               "id": "intro",
               "path": "/docs/intro",
@@ -158,8 +163,8 @@
           "sidebars": {
             "tutorialSidebar": {
               "link": {
-                "path": "/docs/intro",
-                "label": "intro"
+                "path": "/docs/apis/lorem_ipsum",
+                "label": "apis/lorem_ipsum"
               }
             }
           }

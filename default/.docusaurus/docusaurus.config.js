@@ -6,7 +6,7 @@ Modify the docusaurus.config.js file at your site's root instead.
 export default {
   "title": "SharkDoc",
   "tagline": "Create astonishing api & docs devportal",
-  "url": "https://your-docusaurus-test-site.com",
+  "url": "https://nasph.io/",
   "baseUrl": "/",
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
@@ -27,8 +27,8 @@ export default {
         ],
         "theme": {
           "primaryColor": "#a32492",
-          "fontFamily": "Ubuntu Mono, monospace",
-          "fontSize": "11px",
+          "fontFamily": "Roboto, sans-serif",
+          "fontSize": "12px",
           "redocOptions": {
             "hideDownloadButton": false,
             "disableSearch": false
@@ -40,13 +40,13 @@ export default {
       "classic",
       {
         "docs": {
-          "sidebarPath": "/Users/edgar/OneDrive/skalena/2022/ufopa/sharkdoc/sharkdoc-site-templates/default/sidebars.js"
+          "sidebarPath": "/home/junior/Documentos/github/junioremerson/sharkdoc-site-templates/default/sidebars.js"
         },
         "blog": {
           "showReadingTime": true
         },
         "theme": {
-          "customCss": "/Users/edgar/OneDrive/skalena/2022/ufopa/sharkdoc/sharkdoc-site-templates/default/src/css/custom.css"
+          "customCss": "/home/junior/Documentos/github/junioremerson/sharkdoc-site-templates/default/src/css/custom.css"
         }
       }
     ]
@@ -57,8 +57,9 @@ export default {
     "navbar": {
       "title": "SharkDoc",
       "logo": {
-        "alt": "My Site Logo",
-        "src": "img/logo.png"
+        "alt": "Logo Nasph",
+        "src": "img/logo-light.png",
+        "srcDark": "img/logo-dark.png"
       },
       "items": [
         {
@@ -73,7 +74,7 @@ export default {
           "position": "left"
         },
         {
-          "href": "https://github.com/facebook/docusaurus",
+          "href": "https://github.com/nasph-io/sharkdoc-site-templates",
           "label": "GitHub",
           "position": "right"
         }
@@ -84,28 +85,15 @@ export default {
       "style": "dark",
       "links": [
         {
-          "title": "Docs",
+          "title": "Socials",
           "items": [
             {
-              "label": "Tutorial",
-              "to": "/docs/intro"
-            }
-          ]
-        },
-        {
-          "title": "Community",
-          "items": [
-            {
-              "label": "Stack Overflow",
-              "href": "https://stackoverflow.com/questions/tagged/docusaurus"
-            },
-            {
-              "label": "Discord",
-              "href": "https://discordapp.com/invite/docusaurus"
+              "label": "LinkedIn",
+              "to": "https://www.linkedin.com/company/skalena/"
             },
             {
               "label": "Twitter",
-              "href": "https://twitter.com/docusaurus"
+              "to": "https://twitter.com/skalena_hq"
             }
           ]
         },
@@ -118,12 +106,16 @@ export default {
             },
             {
               "label": "GitHub",
-              "href": "https://github.com/facebook/docusaurus"
+              "href": "https://github.com/nasph-io/sharkdoc-site-templates"
+            },
+            {
+              "label": "Nasph.io",
+              "href": "http://nasph.io/"
             }
           ]
         }
       ],
-      "copyright": "Copyright © 2022 My Project, Inc. Built with Docusaurus."
+      "copyright": "Copyright © 2022 SharkDoc, Inc. Built with Docusaurus."
     },
     "prism": {
       "theme": {

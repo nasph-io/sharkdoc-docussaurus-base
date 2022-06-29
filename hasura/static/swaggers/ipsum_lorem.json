@@ -1,0 +1,139 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "version": "0.0.1",
+    "title": "Consultório",
+    "description": "API muito maneira!",
+    "termsOfService": "https://mock.io",
+    "contact": {
+      "name": "Meios de contato",
+      "url": "skalena.com.br",
+      "email": "contato@skalena.com"
+    },
+    "license": {
+      "name": "MIT",
+      "url": "http://opensource.org/licenses/MIT"
+    }
+  },
+  "externalDocs": {
+    "description": "Documento burocrático",
+    "url": "https://mock.io"
+  },
+  "servers": [
+    {
+      "url": "https://62911fa5665ea71fe1415b7e.mockapi.io",
+      "description": "API Dev"
+    }
+  ],
+  "paths": {
+    "/especialidades": {
+      "get": {
+        "summary": "Todas as especialidades",
+        "responses": {
+          "200": {
+            "description": "JSON array",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "id": {
+                        "type": "integer"
+                      },
+                      "nome": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "summary": "Cria nova especialidade",
+        "description": "Através desse endpoint você cria uma nova especialidade.",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "nome": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "201": {
+            "description": "Sucesso",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "nome": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/especidalidades/{id}": {
+      "parameters": [
+        {
+          "name": "id",
+          "in": "path",
+          "schema": {
+            "type": "integer"
+          },
+          "required": true
+        }
+      ],
+      "get": {
+        "summary": "Buscando especialidade por ID",
+        "responses": {
+          "200": {
+            "description": "Sucesso",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "nome": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Erro",
+            "content": {
+              "application/json": {
+                "example": "Not found"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

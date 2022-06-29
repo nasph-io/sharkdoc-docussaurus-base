@@ -9,6 +9,20 @@
   "docsSidebars": {
     "tutorialSidebar": [
       {
+        "type": "category",
+        "label": "Available APIs",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "API Lorem Ipsum",
+            "href": "/docs/apis/lorem_ipsum",
+            "docId": "apis/lorem_ipsum"
+          }
+        ]
+      },
+      {
         "type": "link",
         "label": "Tutorial Intro",
         "href": "/docs/intro",
@@ -81,6 +95,12 @@
     ]
   },
   "docs": {
+    "apis/lorem_ipsum": {
+      "id": "apis/lorem_ipsum",
+      "title": "API Lorem Ipsum",
+      "description": "Informações Gerais",
+      "sidebar": "tutorialSidebar"
+    },
     "intro": {
       "id": "intro",
       "title": "Tutorial Intro",
