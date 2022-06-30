@@ -4,6 +4,8 @@ This repository is the base for any API Dev & Doc Portal generated and managed b
 
 This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 
+See preview at [here](./PREVIEW.md).
+
 SharkDoc will help you to generate the pages for this static site automatically.
 
 Intial Componets and Utilities
@@ -64,14 +66,13 @@ const config = {
   organizationName: 'facebook', // Usually your GitHub org/user name.
   projectName: 'docusaurus', // Usually your repo name.
 ```
-![Customizing theme](https://github.com/nasph-io/sharkdoc-docussaurus-base/raw/main/static/img/assets/toptitle.jpg)
+![Customizing theme](./static/img/assets/toptitle.jpg)
 
 ### Starting customize visual assets
 
 On the same file, we have another section that is reponsible for visual assets :
 
 ```js
-
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
@@ -85,7 +86,6 @@ On the same file, we have another section that is reponsible for visual assets :
   ...
 ```
 
-
 ## Customizing the Navbars
 
 Here are the main points : 
@@ -93,36 +93,35 @@ Here are the main points :
 ```js
 
 themeConfig:
-    /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
-    ({
+  /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
+  ({
 ...
-        items: [
-          {
-            type: 'doc', //this is the doc template
-            docId: 'intro', //first item from the top menu
-            position: 'left', // on the left
-            label: 'Tutorial', // top menu
-          },
-          {to: '/blog', label: 'Blog', position: 'left'}, // on the left as well 
-          {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
-            position: 'right', //the link on the right on the top, could be you company website
-          },
-        ],
+    items: [
+      {
+        type: 'doc', //this is the doc template
+        docId: 'intro', //first item from the top menu
+        position: 'left', // on the left
+        label: 'Tutorial', // top menu
       },
-...      
-
+      {to: '/blog', label: 'Blog', position: 'left'}, // on the left as well 
+      {
+        href: 'https://github.com/facebook/docusaurus',
+        label: 'GitHub',
+        position: 'right', //the link on the right on the top, could be you company website
+      },
+    ],
+  },
+... 
+  ),     
 ```
 
-![Customizing theme](https://github.com/nasph-io/sharkdoc-docussaurus-base/raw/main/static/img/assets/top-site-left.jpg)
+![Customizing theme](./static/img/assets/top-site-left.jpg)
 
 ### Customizing the Footer 
 
 Here are the properties that you have to tweak in order to adapt the information according your needs:
 
 ```js
-
       footer: {
         style: 'dark',
         links: [
@@ -166,22 +165,21 @@ Here are the properties that you have to tweak in order to adapt the information
             ],
           },
         ],
-
 ```
-
 The css class : dark for footer (```footer-dark```), is located in the folder ```./src/css/custom.css```, in the following portion: 
 
 ```css
 .footer--dark{
-  
-background: rgb(2,0,36);
-background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(171,24,118,1) 49%, rgba(0,255,222,1) 100%);
-display: block;
-
+  background: rgb(2,0,36);
+  background: 
+    linear-gradient(90deg,  rgba(2,0,36,1) 0%, 
+    rgba(171,24,118,1) 49%, 
+    rgba(0,255,222,1) 100%);
+  display: block;
 }
 ```
 
-![Customizing theme](https://github.com/nasph-io/sharkdoc-docussaurus-base/raw/main/static/img/assets/footer.jpg)
+![Customizing theme](./static/img/assets/footer.jpg)
 
 ### Customizing Main Themes colors
 
@@ -192,7 +190,7 @@ We have to main themes:
 
 In order to customize it, there is a nice utility provided by Docussaurus here: https://docusaurus.io/docs/styling-layout . It helps you to define the new colors: 
 
-![Customizing theme](https://github.com/nasph-io/sharkdoc-docussaurus-base/raw/main/static/img/assets/pallete.jpg)
+![Customizing theme](./static/img/assets/pallete.jpg)
 
 
 ## Changing the Redoc UI Color
@@ -239,11 +237,10 @@ In order to install SharkDoc, please, make sure you have the following pre-requi
 
 Please, in order to install the Sharkdoc CLI, execute the following command: 
 
-
 In order to install SharkDoc, please, make sure you have the following pre-requirements: 
 
 ```terminal
-npm install -g sharkdoc
+$ npm install -g sharkdoc
 ```
 
 _Make sure that if you your user don't have enough permission in Linux or Mac, please, use the sudo before the npm_
@@ -251,7 +248,7 @@ _Make sure that if you your user don't have enough permission in Linux or Mac, p
 Into your SharkDoc's project, this one that you did you just did the git clone, please execute the following command in the terminal:
 
 ```terminal
-sharkdoc
+$ sharkdoc
 ```
 
 It will execute the SharkDoc:
@@ -263,19 +260,14 @@ Select the option : Create a local api's doc page and press enter.
 If it is the first time that you are executing the SharDoc CLI, it will complain that you have not created a sharkdoc.json which is responsible to give the properties information in order to let the CLI to interact with Govcenter. Please, once it is created for you, make sure you have filled the properties approprietelly, in the follow snippet, you can see an example of this file:
 
 ```json
-{ 
- 
+{  
   "govcenter_base_uri": "https://govcenter.cloud.skalena.com.br", (govcenter uri)
   "api_key": "API KEY", (the api key provided by the Govcenter, that will let the cli to interact with the matedata's API) 
   "doc_path": "/docs/apis", (default location for the api's markdown files)
   "docproject": "./"
 }
-
-
  ```
 
 It will help you to create your markdown file, you just have to inform the api key (attribute) from the Governace Center, which will be use to search the API that is respectively represented by this api key, once the information is found via the api key, when you do inform the markdown page name, everything will be created for you.
 
 Enjoy!
-
-

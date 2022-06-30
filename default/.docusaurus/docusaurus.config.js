@@ -101,12 +101,8 @@ export default {
           "title": "More",
           "items": [
             {
-              "label": "Blog",
-              "to": "/blog"
-            },
-            {
               "label": "GitHub",
-              "href": "https://github.com/nasph-io/sharkdoc-site-templates"
+              "href": "https://github.com/nasph-io/"
             },
             {
               "label": "Nasph.io",
