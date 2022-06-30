@@ -96,6 +96,23 @@ module.exports = {
           label: "Lorem Ipsum",
           position: "left",
         },
+
+        {
+          type: 'dropdown',
+          label: 'Lorem Ipsum',
+          position: 'right',
+          items: [
+            {
+              to: '#', 
+              label: 'Lorem Ipsum', 
+            },
+            {
+              to: '#', 
+              label: 'Lorem Ipsum',
+            },
+            // ... more items
+          ],
+        },
         
         {
           href: "/lorem/",

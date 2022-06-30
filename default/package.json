@@ -21,7 +21,8 @@
     "prism-react-renderer": "^1.2.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
-    "redocusaurus": "^0.9.0"
+    "redocusaurus": "^0.9.0",
+    "swagger-ui-react": "^4.12.0"
   },
   "browserslist": {
     "production": [

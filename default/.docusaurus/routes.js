@@ -95,7 +95,7 @@ export default [
   },
   {
     path: '/sample/doc',
-    component: ComponentCreator('/sample/doc','778'),
+    component: ComponentCreator('/sample/doc','62f'),
     exact: true
   },
   {

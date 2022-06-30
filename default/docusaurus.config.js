@@ -12,7 +12,7 @@ const config = {
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/logo.svg',
   organizationName: 'nasph-io/edgars', // Usually your GitHub org/user name.
   projectName: 'sharkdoc-docussaurus-base', // Usually your repo name.
   presets: [
@@ -84,10 +84,27 @@ const config = {
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
+            type: 'dropdown',
+            label: 'Lorem Ipsum',
+            position: 'right',
+            items: [
+              {
+                to: '#', 
+                label: 'Lorem Ipsum', 
+              },
+              {
+                to: '#', 
+                label: 'Lorem Ipsum',
+              },
+              // ... more items
+            ],
+          },
+          {
             href: 'https://github.com/nasph-io/sharkdoc-site-templates',
             label: 'GitHub',
             position: 'right',
           },
+          
         ],
       },
       footer: {

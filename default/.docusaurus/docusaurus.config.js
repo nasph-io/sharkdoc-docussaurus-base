@@ -10,7 +10,7 @@ export default {
   "baseUrl": "/",
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
-  "favicon": "img/favicon.ico",
+  "favicon": "img/logo.svg",
   "organizationName": "nasph-io/edgars",
   "projectName": "sharkdoc-docussaurus-base",
   "presets": [
@@ -40,13 +40,13 @@ export default {
       "classic",
       {
         "docs": {
-          "sidebarPath": "/home/junior/Documentos/github/junioremerson/sharkdoc-site-templates/default/sidebars.js"
+          "sidebarPath": "/home/crystianprintes/Documents/Projetos/Nasph/sharkdoc-site-templates/default/sidebars.js"
         },
         "blog": {
           "showReadingTime": true
         },
         "theme": {
-          "customCss": "/home/junior/Documentos/github/junioremerson/sharkdoc-site-templates/default/src/css/custom.css"
+          "customCss": "/home/crystianprintes/Documents/Projetos/Nasph/sharkdoc-site-templates/default/src/css/custom.css"
         }
       }
     ]
@@ -72,6 +72,21 @@ export default {
           "to": "/blog",
           "label": "Blog",
           "position": "left"
+        },
+        {
+          "type": "dropdown",
+          "label": "Lorem Ipsum",
+          "position": "right",
+          "items": [
+            {
+              "to": "#",
+              "label": "Lorem Ipsum"
+            },
+            {
+              "to": "#",
+              "label": "Lorem Ipsum"
+            }
+          ]
         },
         {
           "href": "https://github.com/nasph-io/sharkdoc-site-templates",
