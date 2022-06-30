@@ -286,7 +286,7 @@ function Home() {
               </div>
             </div>
             <div className={classnames('col col--5')}>
-              <img className={styles.heroImg} src="img/logo_hero.svg" />
+              <img className={styles.heroImg} src="img/nasph.png" />
             </div>
           </div>
         </div>
@@ -328,7 +328,7 @@ function Home() {
             </div>
           </div>
         </div>
-        {features && features.length && (
+        {/* {features && features.length && (
           <section className={styles.features}>
             <div className="container margin-vert--md">
               <div className="row">
@@ -338,8 +338,8 @@ function Home() {
               </div>
             </div>
           </section>
-        )}
-        <section className={styles.loveSection}>
+        )} */}
+       {/*  <section className={styles.loveSection}>
           <div className="container">
             <div className="row">
               <div className={classnames('col col--6')}>
@@ -374,7 +374,7 @@ function Home() {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
       </main>
     </Layout>
   );
