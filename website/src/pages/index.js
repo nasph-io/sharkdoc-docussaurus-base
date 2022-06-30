@@ -5,11 +5,13 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import styles from './styles.module.css';
+import { SKIN_TONE_DARK } from 'emoji-picker-react';
 
 const features = [
   {
+    style: 'dark',
     title: 'Easy to Use',
-    imageUrl: 'img/checkmark.png',
+    imageUrl: 'img/verificado.png',
     description: (
       <>
         AttoBot works right out of the box and doesn't need any configuration.
