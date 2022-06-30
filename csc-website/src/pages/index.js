@@ -23,7 +23,7 @@ function Home() {
 
         <main className={styles.main}>
           <Features />
-          <Examples />
+          {/* <Examples /> */}
         </main>
       </Layout>
   );

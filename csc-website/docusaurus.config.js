@@ -1,23 +1,23 @@
 const logo = {
-  alt: 'Country State City API Documentation',
-  src: 'img/world.svg',
-  // srcDark: 'img/docusaurus_keytar.svg',
+  alt: 'SharkDoc Documentation',
+  src: 'img/logo.png',
+  srcDark: 'img/logo-light.png',
 };
 
 module.exports = {
-  title: 'Country State City API',
-  tagline: 'Documentation Website',
+  title: 'SharkDoc',
+  tagline: 'Create astonishing api & docs devportal',
   url: 'https://countrystatecity.in',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   onDuplicateRoutes: 'warn',
-  favicon: 'img/world.png',
+  favicon: 'img/logo-light.png',
 
   deploymentBranch: 'gh-pages',
 
-  organizationName: 'dr5hn', // Usually your GitHub org/user name.
-  projectName: 'csc-website', // Usually your repo name.
+  organizationName: 'nasph-io/edgars', // Usually your GitHub org/user name.
+  projectName: 'sharkdoc-docussaurus-base', // Usually your repo name.
 
   i18n: {
     defaultLocale: 'en',
@@ -70,18 +70,18 @@ module.exports = {
     prism: {
       additionalLanguages: ['php', 'dart'],
     },
-    announcementBar: {
+  /*   announcementBar: {
       id: 'supportus',
       backgroundColor: '#cddc39',
       textColor: '#000', // Defaults to `#000`.
       isCloseable: false, // Defaults to `true`.
       content:
         '⭐️ If you like CountryStateCity DB, give it a star on <a target="_blank" rel="noopener noreferrer" href="https://github.com/dr5hn/countries-states-cities-database">GitHub</a>! ⭐️',
-    },
+    }, */
     image: 'img/api.png',
     navbar: {
       hideOnScroll: false,
-      title: 'Country State City API',
+      title: 'SharkDoc',
       logo: logo,
       items: [
         {
@@ -123,19 +123,19 @@ module.exports = {
           position: "right",
         }, */
         {
-          href: 'https://github.com/dr5hn/countries-states-cities-database',
+          href: 'https://github.com/nasph-io',
           position: 'right',
           className: 'header-github-link',
           'aria-label': 'GitHub repository',
         },
-        {
+      /*   {
           href: 'https://twitter.com/dr5hn',
           position: 'right',
           className: 'header-twitter-link',
           'aria-label': 'Follow me on Twitter',
-        },
+        }, */
         {
-          href: 'https://www.linkedin.com/in/dr5hn/',
+          href: 'https://www.linkedin.com/company/skalena/mycompany/',
           position: 'right',
           className: 'header-linkedin-link',
           'aria-label': 'Follow me on Twitter',
@@ -145,7 +145,7 @@ module.exports = {
     footer: {
       style: 'dark',
       logo,
-      copyright: `Made with 💚 in India<img src="/img/india.svg" width="16"> <br>Built with <a href="https://docusaurus.io/" target="_blank" rel="noreferrer">Docusaurus</a>`,
+      copyright: `Made with in Brazil<img src="/img/brazil.svg" width="16"> <br>Built with <a href="https://docusaurus.io/" target="_blank" rel="noreferrer">Docusaurus</a>`,
     },
   },
 
