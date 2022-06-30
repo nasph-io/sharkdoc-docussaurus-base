@@ -90,30 +90,23 @@ module.exports = {
           label: "Documentation",
           position: "left",
          },
-       /* {
-          href: "https://api.countrystatecity.in/play",
-          label: "Playground",
+    
+        {
+          href: "https://www.google.com/",
+          label: "Lorem Ipsum",
           position: "left",
         },
+        
         {
-          href: "https://dr5hn.github.io/countries-states-cities-database/",
-          label: "Demo",
-          position: "left",
+          href: "/lorem/",
+          activeBasePath: "lorem",
+          label: "Lorem Ipsum",
+          position: "right",
         },
-        {
-          href: "https://stats.uptimerobot.com/VZ2NqHlJYM",
-          label: "Status",
-          position: "left",
-        },
-        {
+       /*  {
           href: "/faq/",
           activeBasePath: "faq",
           label: "FAQs",
-          position: "right",
-        },
-        {
-          href: "https://forms.gle/ckZ8Gub6jS9sUihJA",
-          label: "Request API Key",
           position: "right",
         },
         {
