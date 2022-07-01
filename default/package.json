@@ -23,12 +23,8 @@
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "redocusaurus": "^0.9.0",
-<<<<<<< HEAD
     "semver": "^7.3.7",
     "swagger-ui-react": "4.12.0"
-=======
-    "swagger-ui-react": "^4.12.0"
->>>>>>> 512c47da46152d3b314ff7d4a5258145d320e1b2
   },
   "browserslist": {
     "production": [
