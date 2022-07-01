@@ -166,3 +166,7 @@ html[data-theme='dark'] .DocSearch {
 .markdown > table td {
   min-width: 160px;
 }
+
+pre.version {
+  background: none;
+}

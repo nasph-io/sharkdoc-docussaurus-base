@@ -28,7 +28,6 @@ module.exports = {
       items: [
         {to: 'docs/about', label: 'Docs', position: 'left'},
         {to: 'cookbooks', label: 'Lorem Ipsum', position: 'left'},
-        
         {
           type: 'dropdown',
           label: 'Community',
@@ -45,6 +44,7 @@ module.exports = {
             // ... more items
           ],
         },
+        {to: 'blog', label: 'Blog', position: 'right'},
         {
           href: 'https://github.com/nasph-io/sharkdoc-site-templates/releases/latest',
           position: 'right',

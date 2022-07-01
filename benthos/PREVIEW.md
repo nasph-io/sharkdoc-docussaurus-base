@@ -1,6 +1,6 @@
-# SharkDoc's Default Template
+# SharkDoc Benthos Template
 
-SharkDoc's default template for displaying your API documentation.
+SharkDoc Benthos template for displaying your API documentation.
 
 ## Home
 ![Home preview](./assets/Home.png "Showing home screen.")
