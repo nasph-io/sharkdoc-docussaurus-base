@@ -9,18 +9,6 @@ module.exports = {
   favicon: 'img/favicon.ico',
   organizationName: 'nasph-io/edgars', // Usually your GitHub org/user name.
   projectName: 'sharkdoc-docussaurus-base', // Usually your repo name.
-  customFields: {
-    components: {
-      inputs: components("inputs"),
-      processors: components("processors"),
-      outputs: components("outputs"),
-      caches: components("caches"),
-      rate_limits: components("rate_limits"),
-      buffers: components("buffers"),
-      metrics: components("metrics"),
-      tracers: components("tracers"),
-    },
-  },
   themeConfig: {
     prism: {
       theme: require('./src/plugins/prism_themes/github'),
@@ -38,7 +26,7 @@ module.exports = {
         src: 'img/nasph.png',
       },
       items: [
-        {to: 'docs/apis/about', label: 'Docs', position: 'left'},
+        {to: 'docs/about', label: 'Docs', position: 'left'},
         {to: 'cookbooks', label: 'Lorem Ipsum', position: 'left'},
         
         {
@@ -80,10 +68,6 @@ module.exports = {
             {
               label: 'Support',
               to: 'support',
-            },
-            {
-              label: 'Documentation',
-              to: 'docs/guides/getting_started',
             },
             {
               label: 'Videos',
