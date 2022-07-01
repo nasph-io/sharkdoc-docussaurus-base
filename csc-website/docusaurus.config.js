@@ -115,7 +115,7 @@ module.exports = {
         },
         
         {
-          href: "/lorem/",
+          href: "/blog/",
           activeBasePath: "lorem",
           label: "Lorem Ipsum",
           position: "right",
