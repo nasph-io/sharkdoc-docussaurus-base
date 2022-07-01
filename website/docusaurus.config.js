@@ -1,11 +1,12 @@
+
 module.exports = {
-  title: 'AttoBot',
-  tagline: 'A multi-purpose Discord bot with many features and API integrations that will enhance your Discord experience.',
+  title: 'Sharkdoc',
+  tagline: 'Create astonishing api & docs devportal',
   url: 'https://attobot.xyz',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  organizationName: 'attobot-discord',
+  /* organizationName: 'attobot-discord', */
   projectName: 'website',
   favicon: 'img/favicon.ico',
   themeConfig: {
@@ -18,9 +19,9 @@ module.exports = {
       isCloseable: true,
     },
     navbar: {
-      title: 'AttoBot',
+      title: 'Nasph',
       logo: {
-        alt: 'AttoBot',
+        alt: 'Nasph',
         src: 'img/logo.png',
       },
       items: [
@@ -31,18 +32,26 @@ module.exports = {
           position: 'left',
         },
         {
-          href: 'https://buymeacoff.ee/attobot',
-          label: 'Donate',
+          href: '#',
+          label: 'Lorem Ipsum',
           position: 'left',
-        },
+        }, 
         {
+          type: 'docsVersionDropdown',
+          position: 'right',
+          dropdownItemsAfter: [{to: '/versions', label: 'lorem ipsum'}],
+          dropdownActiveClassDisabled: true,
+        },
+        
+        
+        /* {
           href: 'https://discord.gg/fejq4seryy',
           label: 'Support Server',
           position: 'left',
-        },
+        }, */
         {
           href: 'https://discord.com/api/oauth2/authorize?client_id=784351044065951744&scope=bot&permissions=171305158',
-          label: 'Invite AttoBot',
+          label: 'Invite Nasph',
           position: 'right',
         },
       ],
@@ -53,31 +62,35 @@ module.exports = {
         {
           title: 'Links',
           items: [
-            {
+            /* {
               label: 'Support Server',
               href: 'https://discord.gg/fejq4seryy'
-            },
-            {
+            }, */
+            /* {
               label: 'Donate',
               href: 'https://buymeacoff.ee/attobot',
-            },
+            }, */
             {
               label: 'GitHub',
-              href: 'https://github.com/attobot-discord'
+              href: 'https://github.com/nasph-io/sharkdoc-site-templates'
             },
           ],
         },
         {
-          title: 'Partners',
+          title: 'Socials',
           items: [
             {
-              label: 'No Name Bot',
-              href: 'https://discord.gg/2DBFZKnRWt',
+              label: 'Linkedin',
+              href: 'https://www.linkedin.com/company/skalena/mycompany/',
+            },
+            {
+              label: 'blog',
+              href: 'https://nasph.io/blog/',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} AttoBot, Made by Wolf20482#3390 | Built with Discord.js | Website built with Docusaurus`,
+      copyright: `Copyright © ${new Date().getFullYear()} Sharkdoc, Made by Skalena | Website built with Docusaurus`,
     },
   },
   scripts: [

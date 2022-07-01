@@ -3,12 +3,12 @@ const {components} = require('./src/plugins/components');
 
 module.exports = {
   title: 'Benthos - Shardoc Version',
-  tagline: 'Fancy stream processing made operationally mundane',
+  tagline: 'Create astonishing api & docs devportal',
   url: 'https://www.benthos.dev',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
-  organizationName: 'benthosdev',
-  projectName: 'benthos',
+  organizationName: 'nasph-io/edgars', // Usually your GitHub org/user name.
+  projectName: 'sharkdoc-docussaurus-base', // Usually your repo name.
   customFields: {
     components: {
       inputs: components("inputs"),
@@ -29,30 +29,42 @@ module.exports = {
     colorMode: {
       defaultMode: 'light',
     },
-    image: 'img/og_img.png',
+    image: 'img/nasph.png',//'img/og_img.png',
     metadata: [{name: 'twitter:card', content: 'summary'}],
     navbar: {
-      title: 'Benthos',
+      title: 'Sharkdoc - Benthos',
       logo: {
         alt: 'Benthos Blobfish',
-        src: 'img/logo.svg',
+        src: 'img/nasph.png',
       },
       items: [
-        {to: 'docs/about', label: 'Docs', position: 'left'},
-        {to: 'cookbooks', label: 'Cookbooks', position: 'left'},
-        {to: 'blog', label: 'Blog', position: 'left'},
-        {to: 'videos', label: 'Videos', position: 'left'},
-        {to: 'community', label: 'Community', position: 'right'},
-        {to: 'support', label: 'Support', position: 'right'},
-        {to: 'https://v3.benthos.dev', label: 'Version 3 Docs', position: 'right'},
+        {to: 'docs/apis/about', label: 'Docs', position: 'left'},
+        {to: 'cookbooks', label: 'Lorem Ipsum', position: 'left'},
+        
         {
-          href: 'https://github.com/benthosdev/benthos/releases/latest',
+          type: 'dropdown',
+          label: 'Community',
+          position: 'right',
+          items: [
+            {
+              to: '#', 
+              label: 'Lorem Ipsum', 
+            },
+            {
+              to: '#', 
+              label: 'Lorem Ipsum',
+            },
+            // ... more items
+          ],
+        },
+        {
+          href: 'https://github.com/nasph-io/sharkdoc-site-templates/releases/latest',
           position: 'right',
           className: 'header-download-link header-icon-link',
           'aria-label': 'Download',
         },
         {
-          href: 'https://github.com/benthosdev/benthos',
+          href: 'https://github.com/nasph-io/sharkdoc-site-templates',
           position: 'right',
           className: 'header-github-link header-icon-link',
           'aria-label': 'GitHub repository',

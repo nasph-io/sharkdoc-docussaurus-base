@@ -8,8 +8,9 @@ import styles from './styles.module.css';
 
 const features = [
   {
+    style: 'dark',
     title: 'Easy to Use',
-    imageUrl: 'img/checkmark.png',
+    imageUrl: 'img/verificado.png',
     description: (
       <>
         AttoBot works right out of the box and doesn't need any configuration.
