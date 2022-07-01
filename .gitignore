@@ -107,4 +107,4 @@ dist
 
 .docusaurus/
 
-sharkdoc.json
+**/sharkdoc.json

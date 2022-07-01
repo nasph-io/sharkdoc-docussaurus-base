@@ -18,10 +18,13 @@
     "@docusaurus/preset-classic": "2.0.0-beta.17",
     "@mdx-js/react": "^1.6.22",
     "clsx": "^1.1.1",
+    "fast-glob": "^3.2.11",
     "prism-react-renderer": "^1.2.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
-    "redocusaurus": "^0.9.0"
+    "redocusaurus": "^0.9.0",
+    "semver": "^7.3.7",
+    "swagger-ui-react": "4.12.0"
   },
   "browserslist": {
     "production": [
