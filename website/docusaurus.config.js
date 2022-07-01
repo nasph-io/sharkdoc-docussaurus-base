@@ -31,11 +31,19 @@ module.exports = {
           label: 'Docs',
           position: 'left',
         },
-        /* {
-          href: 'https://buymeacoff.ee/attobot',
-          label: 'Donate',
+        {
+          href: '#',
+          label: 'Lorem Ipsum',
           position: 'left',
-        }, */
+        }, 
+        {
+          type: 'docsVersionDropdown',
+          position: 'right',
+          dropdownItemsAfter: [{to: '/versions', label: 'lorem ipsum'}],
+          dropdownActiveClassDisabled: true,
+        },
+        
+        
         /* {
           href: 'https://discord.gg/fejq4seryy',
           label: 'Support Server',
