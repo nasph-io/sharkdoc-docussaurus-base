@@ -4,9 +4,21 @@ This repository is the base for any API Dev & Doc Portal generated and managed b
 
 This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 
-See preview at [here](PREVIEW.md).
-
 SharkDoc will help you to generate the pages for this static site automatically.
+
+## Preview
+
+### Home (Dark and Light)
+![Home preview](./assets/Home.png "Showing home screen.")
+
+### Docs (Dark)
+![Docs preview](./assets/Docs.png "Describe your won API.")
+
+### Contract (Light)
+![Contract preview](./assets/Contract.png "Render contract API.")
+
+### Blog (Dark)
+![Docs preview](./assets/Blog.png "Write posts.")
 
 Intial Componets and Utilities
 

@@ -25,4 +25,4 @@ USER node
 # Expose port 3000
 EXPOSE 3000
 # Start the app in debug mode so we can attach the debugger
-CMD ["npm", "start"]
+CMD ["npm", "run", "serve", "--", "--build", "--port", "3000", "--host", "0.0.0.0"]

@@ -1,12 +1,15 @@
-# SharkDoc Benthos Template
+# SharkDoc's Benthos Template
 
 SharkDoc Benthos template for displaying your API documentation.
 
-## Home
+## Home (Light and Dark)
 ![Home preview](./assets/Home.png "Showing home screen.")
 
-## Docs
+## Docs (Dark)
 ![Docs preview](./assets/Docs.png "Describe your won API.")
 
-## Contract
+## Contract (Light)
 ![Contract preview](./assets/Contract.png "Render contract API.")
+
+## Blog (Dark)
+![Docs preview](./assets/Blog.png "Write posts.")

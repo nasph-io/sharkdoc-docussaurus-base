@@ -1,8 +1,8 @@
-# SharkDoc's Default Template
+# SharkDoc's CSC Website Template
 
-SharkDoc's default template for displaying your API documentation.
+SharkDoc Benthos template for displaying your API documentation.
 
-## Home (Dark and Light)
+## Home (Light and Dark)
 ![Home preview](./assets/Home.png "Showing home screen.")
 
 ## Docs (Dark)
@@ -11,5 +11,5 @@ SharkDoc's default template for displaying your API documentation.
 ## Contract (Light)
 ![Contract preview](./assets/Contract.png "Render contract API.")
 
-## Blog (Dark)
-![Blog preview](./assets/Blog.png "Write posts.")
+## Blog (Light)
+![Contract preview](./assets/Contract.png "Write posts.")
